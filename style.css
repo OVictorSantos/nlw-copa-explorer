@@ -134,6 +134,16 @@ header {
     animation: appear 2s forwards;
 }
 
+.jornada-1 {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.jornada-1 h1 {
+    color: white;
+}
+
 @keyframes appear {
     0% {
         transform: translateY(-50px);
