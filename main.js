@@ -65,3 +65,4 @@ document.querySelector('#cards').innerHTML =
         createCard('04/12', 'domingo', createGame('france', 'França', '3 X 1', 'poland', 'Polônia') + createGame('england', 'Inglaterra', '3 X 0', 'senegal', 'Senegal')) +
         createCard('05/12', 'segunda', createGame('japan', 'Japão', '1 (1 x 3) 1', 'croatia', 'Croácia') + createGame('brazil', 'Brasil', '4 X 1', 'south-korea', 'Coreia do Sul')) +
         createCard('06/12', 'terça', createGame('marocco', 'Marrocos', '0 (3 x 0) 0', 'spain', 'Espanha') + createGame('portugal', 'Portugal', '6 X 1', 'switzerland', 'Suíça'))
+        //teste
