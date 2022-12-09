@@ -57,11 +57,19 @@ document.querySelector('#cards').innerHTML =
         createCard('02/12', 'sexta', createGame('south-korea', 'Coreia do Sul', '2 X 1', 'portugal', 'Portugal') + createGame('ghana', 'Gana', '0 X 2', 'uruguay', 'Uruguai') + createGame('serbia', 'Sérvia', '2 X 3', 'switzerland', 'Suíça') + createGame('brazil', 'Brasil', '0 X 1', 'cameroon', 'Camarões')) +
         ` 
         <div class="jornada-1">
-            <h1>Oitavas de final</h1>
+            <h1>OITAVAS DE FINAL</h1>
         </div>
 
          ` +
         createCard('03/12', 'sábado', createGame('netherlands', 'Holanda', '3 X 1', 'united-states', 'Estados Unidos') + createGame('argentina', 'Argentina', '2 X 1', 'australia', 'Austrália')) +
         createCard('04/12', 'domingo', createGame('france', 'França', '3 X 1', 'poland', 'Polônia') + createGame('england', 'Inglaterra', '3 X 0', 'senegal', 'Senegal')) +
         createCard('05/12', 'segunda', createGame('japan', 'Japão', '1 (1 x 3) 1', 'croatia', 'Croácia') + createGame('brazil', 'Brasil', '4 X 1', 'south-korea', 'Coreia do Sul')) +
-        createCard('06/12', 'terça', createGame('marocco', 'Marrocos', '0 (3 x 0) 0', 'spain', 'Espanha') + createGame('portugal', 'Portugal', '6 X 1', 'switzerland', 'Suíça'))
+        createCard('06/12', 'terça', createGame('marocco', 'Marrocos', '0 (3 x 0) 0', 'spain', 'Espanha') + createGame('portugal', 'Portugal', '6 X 1', 'switzerland', 'Suíça')) +
+        ` 
+        <div class="jornada-1">
+            <h1>QUARTAS DE FINAL</h1>
+        </div>
+
+         ` +
+         createCard('09/12', 'sexta', createGame('croatia', 'Croácia', '12:00', 'brazil', 'Brasil') + createGame('netherlands', 'Holanda', '16:00', 'argentina', 'Argentina')) + 
+         createCard('10/12', 'sábado', createGame('marocco', 'Marrocos', '12:00', 'portugal', 'Portugal') + createGame('england', 'Inglaterra', '16:00', 'france', 'França'))
