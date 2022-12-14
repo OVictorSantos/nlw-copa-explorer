@@ -71,5 +71,26 @@ document.querySelector('#cards').innerHTML =
         </div>
 
          ` +
-         createCard('09/12', 'sexta', createGame('croatia', 'Croácia', '12:00', 'brazil', 'Brasil') + createGame('netherlands', 'Holanda', '16:00', 'argentina', 'Argentina')) + 
-         createCard('10/12', 'sábado', createGame('marocco', 'Marrocos', '12:00', 'portugal', 'Portugal') + createGame('england', 'Inglaterra', '16:00', 'france', 'França'))
+         createCard('09/12', 'sexta', createGame('croatia', 'Croácia', '1 (4 x 2) 1', 'brazil', 'Brasil') + createGame('netherlands', 'Holanda', '2 (3 x 4) 2', 'argentina', 'Argentina')) + 
+         createCard('10/12', 'sábado', createGame('marocco', 'Marrocos', '1 x 0', 'portugal', 'Portugal') + createGame('england', 'Inglaterra', '1 x 2', 'france', 'França')) +
+         `
+        <div class="jornada-1">
+            <h1>SEMIFINAIS</h1>
+        </div>
+
+         ` +
+         createCard('13/12', 'terça', createGame('argentina', 'Argentina', '3 x 0', 'croatia', 'Croácia') + createGame('france', 'França', '2 x 0', 'marocco', 'Marrocos')) +
+         `
+        <div class="jornada-1">
+            <h1>DISPUTA PELO TERCEIRO LUGAR</h1>
+        </div>
+
+         ` +
+         createCard('17/12', 'sábado', createGame('croatia', 'Croácia', '12:00', 'marocco', 'Marrocos')) +
+         `
+        <div class="jornada-1">
+            <h1>FINAL</h1>
+        </div>
+
+         ` +
+         createCard('18/12', 'domingo', createGame('argentina', 'Argentina', '12:00', 'france', 'França'))
