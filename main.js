@@ -86,11 +86,11 @@ document.querySelector('#cards').innerHTML =
         </div>
 
          ` +
-         createCard('17/12', 'sábado', createGame('croatia', 'Croácia', '12:00', 'marocco', 'Marrocos')) +
+         createCard('17/12', 'sábado', createGame('croatia', 'Croácia', '2 x 1', 'marocco', 'Marrocos')) +
          `
         <div class="jornada-1">
             <h1>FINAL</h1>
         </div>
 
          ` +
-         createCard('18/12', 'domingo', createGame('argentina', 'Argentina', '12:00', 'france', 'França'))
+         createCard('18/12', 'domingo', createGame('argentina', 'Argentina', '3 (4 x 2) 3', 'france', 'França'))
